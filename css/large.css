@@ -1,8 +1,15 @@
 /* 64em is also 1028px when basefont is 16px */
 @media only screen and (min-width: 64rem) {
 
+/*----------- HEADER --------------*/
+    header, nav, main, footer {
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+    
+/*----------- NAVIGATION --------------*/
 
-    navu ul li a {padding: .6rem 1rem;}
+    nav ul li a {padding: .6rem 1rem;}
 
 
 } /*end large */

@@ -29,28 +29,30 @@
 </head>
 <body>
 <!-- HEADER HERE -->
+<div id="headerWrapper">
 	<header class="clearfix">
- <img src="images/logoweather.png" alt="sun logo">
- <div>
- <h1>Beyond Sunny Days</h1>
+        <img src="images/logoweather.png" alt="sun logo">
+    <div>
+        <h1>Beyond Sunny Days</h1>
         <h2>Because everyday is different</h2>
- </div>
+    </div>
     </header>
-    
+</div>    
     
 <!-- NAVIGATION HERE -->
+<div id="navWrapper">
     <nav class="clearfix">
-        <button onclick="toggleMenu()">&#9776</button>
-        <ul id="primaryNav" class="hide">
-            <li><a href="#">Home</a></li>
-            <li class="active"><a href="preston.html">Preston</a></li>
-            <li><a href="#">Soda Springs</a></li>
-            <li><a href="#">Fish Haven</a></li>
-            <li><a href="#">Storm Center</a></li>  
-            <li><a href="#">Gallery</a></li> 
-            
-        </ul>
+    <button onclick="toggleMenu()">&#9776</button>
+    <ul id="primaryNav" class="hide">
+        <li><a href="#">Home</a></li>
+        <li class="active"><a href="preston.html">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="#">Storm Center</a></li>  
+        <li><a href="#">Gallery</a></li> 
+    </ul>
     </nav>
+</div>
     
     
 <!-- CONTENT HERE -->
@@ -70,12 +72,13 @@
 
     </main>
     
-<!-- FOOTER HERE -->   
+<!-- FOOTER HERE --> 
+<div id="footerWrapper">  
     <footer>
-        <p>&copy; 2020 &#9925; Delfina Moncayo &#9925;</p><span>Last Updated:
+        &copy; 2020 &#9925; Delfina Moncayo &#9925;<br/><span>Last Updated:
             <script> document.write( updateCurrentDate() ) </script></span>
     </footer>
-    
+</div>
 
 </body>
 </html>
