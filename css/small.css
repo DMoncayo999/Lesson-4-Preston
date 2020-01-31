@@ -65,7 +65,12 @@ main {
     padding: 0 2%;
     min-height: 10rem;
 }
-
+/*Just for placeholder, remove in Lesson 5*/
+main div {background-color: rgb(188, 232, 240); 
+    border-style: none;
+    margin-bottom: .5rem;
+    padding: 2%;
+}
 
 
 /*----------- FOOTER --------------*/
